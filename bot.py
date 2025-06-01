@@ -6,6 +6,8 @@ from dotenv import load_dotenv
 from flask import Flask
 from threading import Thread
 import requests
+import urllib3
+
 
 load_dotenv()
 db = TinyDB('ratings.json')
